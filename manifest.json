@@ -1,6 +1,10 @@
 {
-  "name": "Aplikasi Keuangan Personal",
-  "short_name": "Keuangan",
+  "name": "M Keuangan P",
+  "short_name": "M Keuangan P",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#b0e0e6",
+  "theme_color": "#4a90e2",
   "icons": [
     {
       "src": "0.png",
@@ -8,12 +12,9 @@
       "type": "image/png"
     },
     {
-      "src": "0.png", 
+      "src": "0.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 }
