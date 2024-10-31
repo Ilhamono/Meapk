@@ -3,7 +3,7 @@
   "short_name": "M Keuangan P",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#AEC6CF",
+  "background_color": "#aec6cf",
   "theme_color": "#ffffff",
   "icons": [
     {
