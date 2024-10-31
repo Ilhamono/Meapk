@@ -305,6 +305,18 @@
                 navLinks.classList.remove('show');
             }
         });
+// Mendaftarkan service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker berhasil didaftarkan');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker gagal didaftarkan: ', err);
+                    });
+            });
+        }
     </script>
 </body>
 </html>
